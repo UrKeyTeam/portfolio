@@ -18,16 +18,31 @@
 
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .collapsekilles{
+            transition:  opacity 2s ;
+            height:auto;
+            opacity: 1;
+        }
+        .hidden {
+            transition:  opacity 2s ;
+            visibility: hidden;
+            opacity:0;
+            height: 0;
+        }
+    </style>
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
 
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target"
+        id="ftco-navbar">
         <div class="container">
-            <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="oi oi-menu"></span> Menu
-			</button>
+            <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
+                data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="oi oi-menu"></span> Menu
+            </button>
 
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav nav ml-auto">
@@ -46,12 +61,14 @@
             <div class="slider-item">
                 <div class="overlay"></div>
                 <div class="container-fluid px-md-0">
-                    <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+                    <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end"
+                        data-scrollax-parent="true">
                         <div class="one-third order-md-last img" style="background-image:url(images/image_3.jpg);">
                             <div class="overlay"></div>
                             <div class="overlay-1"></div>
                         </div>
-                        <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+                        <div class="one-forth d-flex  align-items-center ftco-animate"
+                            data-scrollax=" properties: { translateY: '70%' }">
                             <div class="text">
                                 <h1 class="mb-4 mt-3">Creative <span>UI/UX</span> Designers &amp; Développeurs</h1>
                                 <p><a href="#" class="btn btn-primary">Embaucher Nous</a> </p>
@@ -109,7 +126,8 @@
                 <div class="col-md-6 col-lg-5 d-flex">
                     <div class="img-about img d-flex align-items-stretch">
                         <div class="overlay"></div>
-                        <div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/image_1.jpg);">
+                        <div class="img d-flex align-self-stretch align-items-center"
+                            style="background-image:url(images/image_1.jpg);">
                         </div>
                     </div>
                 </div>
@@ -118,9 +136,12 @@
                         <div class="row justify-content-start pb-3">
                             <div class="col-md-12 heading-section ftco-animate">
                                 <span class="subheading">NOTRE INTRO</span>
-                                <h2 class="mb-4" style="font-size: 34px; text-transform: capitalize;">À propos de nous</h2>
+                                <h2 class="mb-4" style="font-size: 34px; text-transform: capitalize;">À propos de nous
+                                </h2>
                                 <p>
-                                    Nous sommes des ambitieux élèves ingenieurs en informatique Nous visons de trouver des solutions à vos problèmes au sein de l'entreprise en utilisant les outils informatique.
+                                    Nous sommes des ambitieux élèves ingenieurs en informatique Nous visons de trouver
+                                    des solutions à vos problèmes au sein de l'entreprise en utilisant les outils
+                                    informatique.
                                 </p>
                                 <ul class="about-info mt-4 px-md-0 px-2">
                                     <li class="d-flex"><span>E-mail:</span> <span>Equipe@gmail.com</span></li>
@@ -133,25 +154,25 @@
                                         <div class="icon d-flex align-items-center justify-content-center">
                                             <span class="flaticon-listening"></span>
                                         </div>
-                                        <div class="text">Musique</div>
+                                        <div class="text">Abderrazzaq LAANAOUI</div>
                                     </div>
                                     <div class="interest-wrap d-flex align-items-center">
                                         <div class="icon d-flex align-items-center justify-content-center">
                                             <span class="flaticon-suitcases"></span>
                                         </div>
-                                        <div class="text">Voyage</div>
+                                        <div class="text">Achraf AITMBAREK</div>
                                     </div>
                                     <div class="interest-wrap d-flex align-items-center">
                                         <div class="icon d-flex align-items-center justify-content-center">
                                             <span class="flaticon-video-player"></span>
                                         </div>
-                                        <div class="text">Film</div>
+                                        <div class="text">Meryem Chihaja</div>
                                     </div>
                                     <div class="interest-wrap d-flex align-items-center">
                                         <div class="icon d-flex align-items-center justify-content-center">
                                             <span class="flaticon-football"></span>
                                         </div>
-                                        <div class="text">Sports</div>
+                                        <div class="text">Oumayma Chihaja</div>
                                     </div>
                                 </div>
                             </div>
@@ -171,7 +192,7 @@
 
                 </div>
             </div>
-            <div class="row progress-circle mb-5">
+            <div class="row progress-circle">
                 <div class="col-lg-3 mb-4">
                     <div class="bg-white rounded-lg shadow p-4">
                         <h2 class="h5 font-weight-bold text-center mb-4">HTML</h2>
@@ -179,12 +200,13 @@
                         <!-- Progress bar 1 -->
                         <div class="progress mx-auto" data-value='98'>
                             <span class="progress-left">
-								<span class="progress-bar border-primary"></span>
+                                <span class="progress-bar border-primary"></span>
                             </span>
                             <span class="progress-right">
-								<span class="progress-bar border-primary"></span>
+                                <span class="progress-bar border-primary"></span>
                             </span>
-                            <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                            <div
+                                class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
                                 <div class="h2 font-weight-bold">98<sup class="small">%</sup></div>
                             </div>
                         </div>
@@ -196,15 +218,16 @@
                     <div class="bg-white rounded-lg shadow p-4">
                         <h2 class="h5 font-weight-bold text-center mb-4">CSS</h2>
 
-                        <!-- Progress bar 1 -->
+                        <!-- Progress bar 2 -->
                         <div class="progress mx-auto" data-value='95'>
                             <span class="progress-left">
-								<span class="progress-bar border-primary"></span>
+                                <span class="progress-bar border-primary"></span>
                             </span>
                             <span class="progress-right">
-								<span class="progress-bar border-primary"></span>
+                                <span class="progress-bar border-primary"></span>
                             </span>
-                            <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                            <div
+                                class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
                                 <div class="h2 font-weight-bold">95<sup class="small">%</sup></div>
                             </div>
                         </div>
@@ -216,15 +239,16 @@
                     <div class="bg-white rounded-lg shadow p-4">
                         <h2 class="h5 font-weight-bold text-center mb-4">Bootstrap</h2>
 
-                        <!-- Progress bar 1 -->
+                        <!-- Progress bar 3 -->
                         <div class="progress mx-auto" data-value='80'>
                             <span class="progress-left">
-								<span class="progress-bar border-primary"></span>
+                                <span class="progress-bar border-primary"></span>
                             </span>
                             <span class="progress-right">
-								<span class="progress-bar border-primary"></span>
+                                <span class="progress-bar border-primary"></span>
                             </span>
-                            <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                            <div
+                                class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
                                 <div class="h2 font-weight-bold">80<sup class="small">%</sup></div>
                             </div>
                         </div>
@@ -237,15 +261,16 @@
                     <div class="bg-white rounded-lg shadow p-4">
                         <h2 class="h5 font-weight-bold text-center mb-4">JAVASCRIPT</h2>
 
-                        <!-- Progress bar 1 -->
+                        <!-- Progress bar 4 -->
                         <div class="progress mx-auto" data-value='90'>
                             <span class="progress-left">
-								<span class="progress-bar border-primary"></span>
+                                <span class="progress-bar border-primary"></span>
                             </span>
                             <span class="progress-right">
-								<span class="progress-bar border-primary"></span>
+                                <span class="progress-bar border-primary"></span>
                             </span>
-                            <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                            <div
+                                class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
                                 <div class="h2 font-weight-bold">90<sup class="small">%</sup></div>
                             </div>
                         </div>
@@ -253,20 +278,23 @@
 
                     </div>
                 </div>
-
+            </div>
+            
+            <div class="row progress-circle collapsekilles hidden" aria-labelledby="collapsekilles">
                 <div class="col-lg-3 mb-4">
                     <div class="bg-white rounded-lg shadow p-4">
                         <h2 class="h5 font-weight-bold text-center mb-4">jQuery</h2>
 
-                        <!-- Progress bar 1 -->
+                        <!-- Progress bar 5 -->
                         <div class="progress mx-auto" data-value='50'>
                             <span class="progress-left">
-								<span class="progress-bar border-primary"></span>
+                                <span class="progress-bar border-primary"></span>
                             </span>
                             <span class="progress-right">
-								<span class="progress-bar border-primary"></span>
+                                <span class="progress-bar border-primary"></span>
                             </span>
-                            <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                            <div
+                                class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
                                 <div class="h2 font-weight-bold">50<sup class="small">%</sup></div>
                             </div>
                         </div>
@@ -278,15 +306,16 @@
                     <div class="bg-white rounded-lg shadow p-4">
                         <h2 class="h5 font-weight-bold text-center mb-4">Nodejs</h2>
 
-                        <!-- Progress bar 1 -->
+                        <!-- Progress bar 6 -->
                         <div class="progress mx-auto" data-value='70'>
                             <span class="progress-left">
-								<span class="progress-bar border-primary"></span>
+                                <span class="progress-bar border-primary"></span>
                             </span>
                             <span class="progress-right">
-								<span class="progress-bar border-primary"></span>
+                                <span class="progress-bar border-primary"></span>
                             </span>
-                            <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                            <div
+                                class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
                                 <div class="h2 font-weight-bold">70<sup class="small">%</sup></div>
                             </div>
                         </div>
@@ -299,15 +328,16 @@
                     <div class="bg-white rounded-lg shadow p-4">
                         <h2 class="h5 font-weight-bold text-center mb-4">React</h2>
 
-                        <!-- Progress bar 1 -->
+                        <!-- Progress bar 7 -->
                         <div class="progress mx-auto" data-value='80'>
                             <span class="progress-left">
-								<span class="progress-bar border-primary"></span>
+                                <span class="progress-bar border-primary"></span>
                             </span>
                             <span class="progress-right">
-								<span class="progress-bar border-primary"></span>
+                                <span class="progress-bar border-primary"></span>
                             </span>
-                            <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                            <div
+                                class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
                                 <div class="h2 font-weight-bold">80<sup class="small">%</sup></div>
                             </div>
                         </div>
@@ -319,15 +349,16 @@
                     <div class="bg-white rounded-lg shadow p-4">
                         <h2 class="h5 font-weight-bold text-center mb-4">PHP</h2>
 
-                        <!-- Progress bar 1 -->
+                        <!-- Progress bar 8 -->
                         <div class="progress mx-auto" data-value='50'>
                             <span class="progress-left">
-								<span class="progress-bar border-primary"></span>
+                                <span class="progress-bar border-primary"></span>
                             </span>
                             <span class="progress-right">
-								<span class="progress-bar border-primary"></span>
+                                <span class="progress-bar border-primary"></span>
                             </span>
-                            <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                            <div
+                                class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
                                 <div class="h2 font-weight-bold">50<sup class="small">%</sup></div>
                             </div>
                         </div>
@@ -340,15 +371,16 @@
                     <div class="bg-white rounded-lg shadow p-4">
                         <h2 class="h5 font-weight-bold text-center mb-4">LARAVEL</h2>
 
-                        <!-- Progress bar 1 -->
+                        <!-- Progress bar 9 -->
                         <div class="progress mx-auto" data-value='83'>
                             <span class="progress-left">
-								<span class="progress-bar border-primary"></span>
+                                <span class="progress-bar border-primary"></span>
                             </span>
                             <span class="progress-right">
-								<span class="progress-bar border-primary"></span>
+                                <span class="progress-bar border-primary"></span>
                             </span>
-                            <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                            <div
+                                class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
                                 <div class="h2 font-weight-bold">83<sup class="small">%</sup></div>
                             </div>
                         </div>
@@ -356,20 +388,20 @@
                     </div>
                 </div>
 
-
                 <div class="col-lg-3 mb-4">
                     <div class="bg-white rounded-lg shadow p-4">
                         <h2 class="h5 font-weight-bold text-center mb-4">JAVA</h2>
 
-                        <!-- Progress bar 1 -->
+                        <!-- Progress bar 10 -->
                         <div class="progress mx-auto" data-value='90'>
                             <span class="progress-left">
-								<span class="progress-bar border-primary"></span>
+                                <span class="progress-bar border-primary"></span>
                             </span>
                             <span class="progress-right">
-								<span class="progress-bar border-primary"></span>
+                                <span class="progress-bar border-primary"></span>
                             </span>
-                            <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                            <div
+                                class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
                                 <div class="h2 font-weight-bold">90<sup class="small">%</sup></div>
                             </div>
                         </div>
@@ -381,20 +413,20 @@
                     <div class="bg-white rounded-lg shadow p-4">
                         <h2 class="h5 font-weight-bold text-center mb-4">Photoshop</h2>
 
-                        <!-- Progress bar 1 -->
+                        <!-- Progress bar 11 -->
                         <div class="progress mx-auto" data-value='92'>
                             <span class="progress-left">
-								<span class="progress-bar border-primary"></span>
+                                <span class="progress-bar border-primary"></span>
                             </span>
                             <span class="progress-right">
-								<span class="progress-bar border-primary"></span>
+                                <span class="progress-bar border-primary"></span>
                             </span>
-                            <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                            <div
+                                class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
                                 <div class="h2 font-weight-bold">92<sup class="small">%</sup></div>
                             </div>
                         </div>
                         <!-- END -->
-
                     </div>
                 </div>
 
@@ -402,23 +434,25 @@
                     <div class="bg-white rounded-lg shadow p-4">
                         <h2 class="h5 font-weight-bold text-center mb-4">Illustrator</h2>
 
-                        <!-- Progress bar 1 -->
+                        <!-- Progress bar 12 -->
                         <div class="progress mx-auto" data-value='92'>
                             <span class="progress-left">
-								<span class="progress-bar border-primary"></span>
+                                <span class="progress-bar border-primary"></span>
                             </span>
                             <span class="progress-right">
-								<span class="progress-bar border-primary"></span>
+                                <span class="progress-bar border-primary"></span>
                             </span>
-                            <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                            <div
+                                class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
                                 <div class="h2 font-weight-bold">92<sup class="small">%</sup></div>
                             </div>
                         </div>
                         <!-- END -->
-
                     </div>
                 </div>
-
+            </div>
+            <div class="bg-primary w-25 mx-auto row progress-circle rounded">
+                <button type="button" class="btn btn-block mx-auto"  onclick="toggle()">Show more</button>
             </div>
         </div>
     </section>
@@ -434,7 +468,8 @@
             <div class="row">
                 <div class="col-md-6 col-lg-3">
                     <div class="media block-6 services d-block bg-white rounded-lg shadow ftco-animate">
-                        <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-3d-design"></span></div>
+                        <div class="icon d-flex align-items-center justify-content-center"><span
+                                class="flaticon-3d-design"></span></div>
                         <div class="media-body">
                             <h3 class="heading mb-3">Création de sites web</h3>
                         </div>
@@ -442,7 +477,8 @@
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="media block-6 services d-block bg-white rounded-lg shadow ftco-animate">
-                        <div class="icon shadow d-flex align-items-center justify-content-center"><span class="flaticon-app-development"></span></div>
+                        <div class="icon shadow d-flex align-items-center justify-content-center"><span
+                                class="flaticon-app-development"></span></div>
                         <div class="media-body">
                             <h3 class="heading mb-3">Application Web</h3>
                         </div>
@@ -450,7 +486,8 @@
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="media block-6 services d-block bg-white rounded-lg shadow ftco-animate">
-                        <div class="icon shadow d-flex align-items-center justify-content-center"><span class="flaticon-web-programming"></span></div>
+                        <div class="icon shadow d-flex align-items-center justify-content-center"><span
+                                class="flaticon-web-programming"></span></div>
                         <div class="media-body">
                             <h3 class="heading mb-3">Développement web</h3>
                         </div>
@@ -458,7 +495,8 @@
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="media block-6 services d-block bg-white rounded-lg shadow ftco-animate">
-                        <div class="icon shadow d-flex align-items-center justify-content-center"><span class="flaticon-branding"></span></div>
+                        <div class="icon shadow d-flex align-items-center justify-content-center"><span
+                                class="flaticon-branding"></span></div>
                         <div class="media-body">
                             <h3 class="heading mb-3">Conception de Logo</h3>
                         </div>
@@ -470,7 +508,8 @@
 
             <div class="col-md-6 col-lg-3">
                 <div class="media block-6 services d-block bg-white rounded-lg shadow ftco-animate">
-                    <div class="icon shadow d-flex align-items-center justify-content-center"><span class="flaticon-vector"></span></div>
+                    <div class="icon shadow d-flex align-items-center justify-content-center"><span
+                            class="flaticon-vector"></span></div>
                     <div class="media-body">
                         <h3 class="heading mb-3">Conception graphique</h3>
                     </div>
@@ -506,7 +545,8 @@
             </div>
             <div class="row">
                 <div class="col-md-3">
-                    <div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-1.jpg);">
+                    <div class="project img shadow ftco-animate d-flex justify-content-center align-items-center"
+                        style="background-image: url(images/work-1.jpg);">
                         <div class="overlay"></div>
                         <div class="text text-center p-4">
                             <h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -515,7 +555,8 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-2.jpg);">
+                    <div class="project img shadow ftco-animate d-flex justify-content-center align-items-center"
+                        style="background-image: url(images/work-2.jpg);">
                         <div class="overlay"></div>
                         <div class="text text-center p-4">
                             <h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -524,7 +565,8 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-3.jpg);">
+                    <div class="project img shadow ftco-animate d-flex justify-content-center align-items-center"
+                        style="background-image: url(images/work-3.jpg);">
                         <div class="overlay"></div>
                         <div class="text text-center p-4">
                             <h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -533,7 +575,8 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-4.jpg);">
+                    <div class="project img shadow ftco-animate d-flex justify-content-center align-items-center"
+                        style="background-image: url(images/work-4.jpg);">
                         <div class="overlay"></div>
                         <div class="text text-center p-4">
                             <h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -542,7 +585,8 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-5.jpg);">
+                    <div class="project img shadow ftco-animate d-flex justify-content-center align-items-center"
+                        style="background-image: url(images/work-5.jpg);">
                         <div class="overlay"></div>
                         <div class="text text-center p-4">
                             <h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -551,7 +595,8 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-6.jpg);">
+                    <div class="project img shadow ftco-animate d-flex justify-content-center align-items-center"
+                        style="background-image: url(images/work-6.jpg);">
                         <div class="overlay"></div>
                         <div class="text text-center p-4">
                             <h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -560,7 +605,8 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-7.jpg);">
+                    <div class="project img shadow ftco-animate d-flex justify-content-center align-items-center"
+                        style="background-image: url(images/work-7.jpg);">
                         <div class="overlay"></div>
                         <div class="text text-center p-4">
                             <h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -569,7 +615,8 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-8.jpg);">
+                    <div class="project img shadow ftco-animate d-flex justify-content-center align-items-center"
+                        style="background-image: url(images/work-8.jpg);">
                         <div class="overlay"></div>
                         <div class="text text-center p-4">
                             <h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -611,7 +658,8 @@
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+                                    <textarea name="" id="" cols="30" rows="7" class="form-control"
+                                        placeholder="Message"></textarea>
                                 </div>
                             </div>
                             <div class="col-md-12">
@@ -681,8 +729,10 @@
                         <h2 class="ftco-heading-2">Vous avez une question ?</h2>
                         <div class="block-23 mb-3">
                             <ul>
-                                <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+212623847547643</span></a></li>
-                                <li><a href="#"><span class="icon fa fa-paper-plane pr-4"></span><span class="text">Equipe@gmail.com</span></a></li>
+                                <li><a href="#"><span class="icon fa fa-phone"></span><span
+                                            class="text">+212623847547643</span></a></li>
+                                <li><a href="#"><span class="icon fa fa-paper-plane pr-4"></span><span
+                                            class="text">Equipe@gmail.com</span></a></li>
                             </ul>
                         </div>
                         <ul class="ftco-footer-social list-unstyled mt-2">
@@ -698,7 +748,11 @@
 
 
     <!-- loader -->
-    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+            <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+                stroke="#F96D00" />
+        </svg></div>
 
 
     <script src="js/jquery.min.js"></script>
@@ -712,10 +766,16 @@
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/jquery.animateNumber.min.js"></script>
     <script src="js/scrollax.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
     <script src="js/google-map.js"></script>
 
     <script src="js/main.js"></script>
+    <script>
+        function toggle(){
+            document.querySelector("div[aria-labelledby='collapsekilles']").classList.toggle("hidden")
+        }
+    </script>
 
 </body>
 
