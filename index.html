@@ -452,7 +452,7 @@
                 </div>
             </div>
             <div class="bg-primary w-25 mx-auto row progress-circle rounded">
-                <button type="button" class="btn btn-block mx-auto"  onclick="toggle()">Show more</button>
+                <button type="button" id="toggleSkillsButton" class="btn btn-block mx-auto"  onclick="toggle()">Show more</button>
             </div>
         </div>
     </section>
@@ -773,10 +773,16 @@
     <script src="js/main.js"></script>
     <script>
         function toggle(){
-            document.querySelector("div[aria-labelledby='collapsekilles']").classList.toggle("hidden")
+            let toggleBtn = document.querySelector("#toggleSkillsButton");
+            let collpsedErea = document.querySelector("div[aria-labelledby='collapsekilles']");
+            collpsedErea.classList.toggle("hidden");
+
+            if(collpsedErea.classList.contains("hidden"))
+                toggleBtn.innerText = "show more"
+            else    
+                toggleBtn.innerText = "show less"
         }
     </script>
-
 </body>
 
 </html>
